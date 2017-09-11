@@ -1,0 +1,16 @@
+package webDrivers;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.ie.InternetExplorerDriver;
+
+public class FacebookInternetExplorerDriver {
+
+	public static void main(String[] args) {
+		System.setProperty("driver.ie.driver", "/Users/Mamun/Desktop/driver");
+		WebDriver driver = new InternetExplorerDriver();
+		driver.get("http://www.facebook.com");
+		System.out.println(driver.getTitle());
+
+	}
+
+}

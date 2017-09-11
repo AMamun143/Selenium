@@ -1,0 +1,14 @@
+package Static;
+
+public class FunctionOfStatic {
+
+	public static void main(String[] args) {
+	
+		StaticClass hello = new StaticClass();
+		hello.DoSomething("Hello Mamun");
+		StaticClass hello1 = new StaticClass();
+		StaticClass hello2 = new StaticClass();
+
+	}
+
+}

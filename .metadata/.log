@@ -1,0 +1,766 @@
+!SESSION 2017-07-14 17:30:00.716 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_131
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.core.net 1 0 2017-07-14 17:31:07.083
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+!SESSION 2017-08-08 16:27:27.110 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_131
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/Mamun/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/Mamun/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2017-08-08 16:27:43.764
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+!SESSION 2017-09-04 14:12:21.664 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_131
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/Mamun/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/Mamun/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2017-09-04 14:13:08.839
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+!SESSION 2017-09-06 21:24:46.218 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_131
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/Mamun/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/Mamun/.eclipse_keyring
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2017-09-10 14:12:12.804
+!MESSAGE Exception during event notification
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.equinox.internal.p2.ui.sdk.scheduler.AutomaticUpdater.sameProfile(AutomaticUpdater.java:76)
+	at org.eclipse.equinox.internal.p2.ui.sdk.scheduler.AutomaticUpdater$1.notify(AutomaticUpdater.java:63)
+	at org.eclipse.equinox.internal.p2.core.ProvisioningEventBus.dispatchEvent(ProvisioningEventBus.java:108)
+	at org.eclipse.equinox.internal.p2.core.ProvisioningEventBus.dispatchEvent(ProvisioningEventBus.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+!SESSION 2017-09-10 14:14:40.397 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_131
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -keyring /Users/Mamun/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -data file:/Users/Mamun/Desktop/selenium/java_practice_eclipse/ -product org.eclipse.epp.package.java.product -keyring /Users/Mamun/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2017-09-10 14:14:49.730
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.testng.eclipse 1 0 2017-09-10 14:16:32.336
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /Users/Mamun/Desktop/selenium/java-neon/Eclipse.app/Contents/Eclipse/configuration/org.eclipse.osgi/475/0/.cp/lib/testng-remote.jar /Users/Mamun/Desktop/selenium/java_practice_eclipse/Selenium_WebDriver/bin /Users/Mamun/Downloads/selenium-server-standalone-3.5.3.jar /Users/Mamun/.p2/pool/plugins/org.testng_6.12.0.r201709030044.jar /Users/Mamun/.p2/pool/plugins/com.beust.jcommander_1.66.0.jar /Users/Mamun/.p2/pool/plugins/org.apache-extras.beanshell.bsh_2.0.0.b6.jar /Users/Mamun/.p2/pool/plugins/org.yaml.snakeyaml_1.17.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 50740 -protocol json -d /Users/Mamun/Desktop/selenium/java_practice_eclipse/Selenium_WebDriver/test-output /var/folders/1d/hr3dqy8j4f11t5wgc61t25zw0000gn/T/testng-eclipse--1216358667/testng-customsuite.xml
+java -ea -classpath /Users/Mamun/Desktop/selenium/java-neon/Eclipse.app/Contents/Eclipse/configuration/org.eclipse.osgi/475/0/.cp/lib/testng-remote.jar:/Users/Mamun/Desktop/selenium/java_practice_eclipse/Selenium_WebDriver/bin:/Users/Mamun/Downloads/selenium-server-standalone-3.5.3.jar:/Users/Mamun/.p2/pool/plugins/org.testng_6.12.0.r201709030044.jar:/Users/Mamun/.p2/pool/plugins/com.beust.jcommander_1.66.0.jar:/Users/Mamun/.p2/pool/plugins/org.apache-extras.beanshell.bsh_2.0.0.b6.jar:/Users/Mamun/.p2/pool/plugins/org.yaml.snakeyaml_1.17.0.jar org.testng.remote.RemoteTestNG -serport 50740 -protocol json -d /Users/Mamun/Desktop/selenium/java_practice_eclipse/Selenium_WebDriver/test-output /var/folders/1d/hr3dqy8j4f11t5wgc61t25zw0000gn/T/testng-eclipse--1216358667/testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2017-09-10 14:17:59.539
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /Users/Mamun/Desktop/selenium/java-neon/Eclipse.app/Contents/Eclipse/configuration/org.eclipse.osgi/475/0/.cp/lib/testng-remote.jar /Users/Mamun/Desktop/selenium/java_practice_eclipse/Selenium_WebDriver/bin /Users/Mamun/Downloads/selenium-server-standalone-3.5.3.jar /Users/Mamun/.p2/pool/plugins/org.testng_6.12.0.r201709030044.jar /Users/Mamun/.p2/pool/plugins/com.beust.jcommander_1.66.0.jar /Users/Mamun/.p2/pool/plugins/org.apache-extras.beanshell.bsh_2.0.0.b6.jar /Users/Mamun/.p2/pool/plugins/org.yaml.snakeyaml_1.17.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 51216 -protocol json -d /Users/Mamun/Desktop/selenium/java_practice_eclipse/Selenium_WebDriver/test-output /var/folders/1d/hr3dqy8j4f11t5wgc61t25zw0000gn/T/testng-eclipse-198517924/testng-customsuite.xml
+java -ea -classpath /Users/Mamun/Desktop/selenium/java-neon/Eclipse.app/Contents/Eclipse/configuration/org.eclipse.osgi/475/0/.cp/lib/testng-remote.jar:/Users/Mamun/Desktop/selenium/java_practice_eclipse/Selenium_WebDriver/bin:/Users/Mamun/Downloads/selenium-server-standalone-3.5.3.jar:/Users/Mamun/.p2/pool/plugins/org.testng_6.12.0.r201709030044.jar:/Users/Mamun/.p2/pool/plugins/com.beust.jcommander_1.66.0.jar:/Users/Mamun/.p2/pool/plugins/org.apache-extras.beanshell.bsh_2.0.0.b6.jar:/Users/Mamun/.p2/pool/plugins/org.yaml.snakeyaml_1.17.0.jar org.testng.remote.RemoteTestNG -serport 51216 -protocol json -d /Users/Mamun/Desktop/selenium/java_practice_eclipse/Selenium_WebDriver/test-output /var/folders/1d/hr3dqy8j4f11t5wgc61t25zw0000gn/T/testng-eclipse-198517924/testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2017-09-10 14:36:53.706
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /Users/Mamun/Desktop/selenium/java-neon/Eclipse.app/Contents/Eclipse/configuration/org.eclipse.osgi/475/0/.cp/lib/testng-remote.jar /Users/Mamun/Desktop/selenium/java_practice_eclipse/Selenium_WebDriver/bin /Users/Mamun/Downloads/selenium-server-standalone-3.5.3.jar /Users/Mamun/.p2/pool/plugins/org.testng_6.12.0.r201709030044.jar /Users/Mamun/.p2/pool/plugins/com.beust.jcommander_1.66.0.jar /Users/Mamun/.p2/pool/plugins/org.apache-extras.beanshell.bsh_2.0.0.b6.jar /Users/Mamun/.p2/pool/plugins/org.yaml.snakeyaml_1.17.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 52510 -protocol json -d /Users/Mamun/Desktop/selenium/java_practice_eclipse/Selenium_WebDriver/test-output /var/folders/1d/hr3dqy8j4f11t5wgc61t25zw0000gn/T/testng-eclipse-1208102327/testng-customsuite.xml
+java -ea -classpath /Users/Mamun/Desktop/selenium/java-neon/Eclipse.app/Contents/Eclipse/configuration/org.eclipse.osgi/475/0/.cp/lib/testng-remote.jar:/Users/Mamun/Desktop/selenium/java_practice_eclipse/Selenium_WebDriver/bin:/Users/Mamun/Downloads/selenium-server-standalone-3.5.3.jar:/Users/Mamun/.p2/pool/plugins/org.testng_6.12.0.r201709030044.jar:/Users/Mamun/.p2/pool/plugins/com.beust.jcommander_1.66.0.jar:/Users/Mamun/.p2/pool/plugins/org.apache-extras.beanshell.bsh_2.0.0.b6.jar:/Users/Mamun/.p2/pool/plugins/org.yaml.snakeyaml_1.17.0.jar org.testng.remote.RemoteTestNG -serport 52510 -protocol json -d /Users/Mamun/Desktop/selenium/java_practice_eclipse/Selenium_WebDriver/test-output /var/folders/1d/hr3dqy8j4f11t5wgc61t25zw0000gn/T/testng-eclipse-1208102327/testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2017-09-10 15:14:52.802
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /Users/Mamun/Desktop/selenium/java-neon/Eclipse.app/Contents/Eclipse/configuration/org.eclipse.osgi/475/0/.cp/lib/testng-remote.jar /Users/Mamun/Desktop/selenium/java_practice_eclipse/Selenium_WebDriver/bin /Users/Mamun/Downloads/selenium-server-standalone-3.5.3.jar /Users/Mamun/.p2/pool/plugins/org.testng_6.12.0.r201709030044.jar /Users/Mamun/.p2/pool/plugins/com.beust.jcommander_1.66.0.jar /Users/Mamun/.p2/pool/plugins/org.apache-extras.beanshell.bsh_2.0.0.b6.jar /Users/Mamun/.p2/pool/plugins/org.yaml.snakeyaml_1.17.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 54549 -protocol json -d /Users/Mamun/Desktop/selenium/java_practice_eclipse/Selenium_WebDriver/test-output /var/folders/1d/hr3dqy8j4f11t5wgc61t25zw0000gn/T/testng-eclipse-1664695815/testng-customsuite.xml
+java -ea -classpath /Users/Mamun/Desktop/selenium/java-neon/Eclipse.app/Contents/Eclipse/configuration/org.eclipse.osgi/475/0/.cp/lib/testng-remote.jar:/Users/Mamun/Desktop/selenium/java_practice_eclipse/Selenium_WebDriver/bin:/Users/Mamun/Downloads/selenium-server-standalone-3.5.3.jar:/Users/Mamun/.p2/pool/plugins/org.testng_6.12.0.r201709030044.jar:/Users/Mamun/.p2/pool/plugins/com.beust.jcommander_1.66.0.jar:/Users/Mamun/.p2/pool/plugins/org.apache-extras.beanshell.bsh_2.0.0.b6.jar:/Users/Mamun/.p2/pool/plugins/org.yaml.snakeyaml_1.17.0.jar org.testng.remote.RemoteTestNG -serport 54549 -protocol json -d /Users/Mamun/Desktop/selenium/java_practice_eclipse/Selenium_WebDriver/test-output /var/folders/1d/hr3dqy8j4f11t5wgc61t25zw0000gn/T/testng-eclipse-1664695815/testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2017-09-10 16:52:35.118
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /Users/Mamun/Desktop/selenium/java-neon/Eclipse.app/Contents/Eclipse/configuration/org.eclipse.osgi/475/0/.cp/lib/testng-remote.jar /Users/Mamun/Desktop/selenium/java_practice_eclipse/Selenium_WebDriver/bin /Users/Mamun/Downloads/selenium-server-standalone-3.5.3.jar /Users/Mamun/.p2/pool/plugins/org.testng_6.12.0.r201709030044.jar /Users/Mamun/.p2/pool/plugins/com.beust.jcommander_1.66.0.jar /Users/Mamun/.p2/pool/plugins/org.apache-extras.beanshell.bsh_2.0.0.b6.jar /Users/Mamun/.p2/pool/plugins/org.yaml.snakeyaml_1.17.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 55677 -protocol json -d /Users/Mamun/Desktop/selenium/java_practice_eclipse/Selenium_WebDriver/test-output /var/folders/1d/hr3dqy8j4f11t5wgc61t25zw0000gn/T/testng-eclipse-371656500/testng-customsuite.xml
+java -ea -classpath /Users/Mamun/Desktop/selenium/java-neon/Eclipse.app/Contents/Eclipse/configuration/org.eclipse.osgi/475/0/.cp/lib/testng-remote.jar:/Users/Mamun/Desktop/selenium/java_practice_eclipse/Selenium_WebDriver/bin:/Users/Mamun/Downloads/selenium-server-standalone-3.5.3.jar:/Users/Mamun/.p2/pool/plugins/org.testng_6.12.0.r201709030044.jar:/Users/Mamun/.p2/pool/plugins/com.beust.jcommander_1.66.0.jar:/Users/Mamun/.p2/pool/plugins/org.apache-extras.beanshell.bsh_2.0.0.b6.jar:/Users/Mamun/.p2/pool/plugins/org.yaml.snakeyaml_1.17.0.jar org.testng.remote.RemoteTestNG -serport 55677 -protocol json -d /Users/Mamun/Desktop/selenium/java_practice_eclipse/Selenium_WebDriver/test-output /var/folders/1d/hr3dqy8j4f11t5wgc61t25zw0000gn/T/testng-eclipse-371656500/testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2017-09-10 17:07:57.877
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /Users/Mamun/Desktop/selenium/java-neon/Eclipse.app/Contents/Eclipse/configuration/org.eclipse.osgi/475/0/.cp/lib/testng-remote.jar /Users/Mamun/Desktop/selenium/java_practice_eclipse/Selenium_WebDriver/bin /Users/Mamun/Downloads/selenium-server-standalone-3.5.3.jar /Users/Mamun/.p2/pool/plugins/org.testng_6.12.0.r201709030044.jar /Users/Mamun/.p2/pool/plugins/com.beust.jcommander_1.66.0.jar /Users/Mamun/.p2/pool/plugins/org.apache-extras.beanshell.bsh_2.0.0.b6.jar /Users/Mamun/.p2/pool/plugins/org.yaml.snakeyaml_1.17.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 56854 -protocol json -d /Users/Mamun/Desktop/selenium/java_practice_eclipse/Selenium_WebDriver/test-output /var/folders/1d/hr3dqy8j4f11t5wgc61t25zw0000gn/T/testng-eclipse-857359565/testng-customsuite.xml
+java -ea -classpath /Users/Mamun/Desktop/selenium/java-neon/Eclipse.app/Contents/Eclipse/configuration/org.eclipse.osgi/475/0/.cp/lib/testng-remote.jar:/Users/Mamun/Desktop/selenium/java_practice_eclipse/Selenium_WebDriver/bin:/Users/Mamun/Downloads/selenium-server-standalone-3.5.3.jar:/Users/Mamun/.p2/pool/plugins/org.testng_6.12.0.r201709030044.jar:/Users/Mamun/.p2/pool/plugins/com.beust.jcommander_1.66.0.jar:/Users/Mamun/.p2/pool/plugins/org.apache-extras.beanshell.bsh_2.0.0.b6.jar:/Users/Mamun/.p2/pool/plugins/org.yaml.snakeyaml_1.17.0.jar org.testng.remote.RemoteTestNG -serport 56854 -protocol json -d /Users/Mamun/Desktop/selenium/java_practice_eclipse/Selenium_WebDriver/test-output /var/folders/1d/hr3dqy8j4f11t5wgc61t25zw0000gn/T/testng-eclipse-857359565/testng-customsuite.xml
+
+!ENTRY org.eclipse.jdt.core 4 4 2017-09-10 17:11:40.428
+!MESSAGE Exception occurred during problem detection:
+----------------------------------- SOURCE BEGIN -------------------------------------
+package Assertion;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
+import org.testng.annotations.Test;
+
+public class GmailAssert {
+	
+	@Test
+	public void AssertGmail() {
+		System.setProperty("WebDriver.gecko.driver", "/Users/Mamun/Desktop/driver");
+		WebDriver driver = new ChromeDriver();
+		driver.get("http://www.gmail.com");
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		driver.manage().window().maximize();
+		
+		WebElement email = driver.findElement(By.cssSelector("#identifierId"));
+		Select emailField = new Select(email);
+		
+		WebElement defaultEmail = emailField.getFirstSelectedOption();
+		System.out.println(defaultEmail);
+		
+		driver.findElement(By.cssSelector(".RYc"ZFr60d Ceo)).click();
+	
+	}
+
+}
+
+----------------------------------- SOURCE END -------------------------------------
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jdt.internal.compiler.ast.ReferenceExpression.copy(ReferenceExpression.java:141)
+	at org.eclipse.jdt.internal.compiler.ast.ReferenceExpression.cachedResolvedCopy(ReferenceExpression.java:819)
+	at org.eclipse.jdt.internal.compiler.ast.ReferenceExpression.isCompatibleWith(ReferenceExpression.java:1085)
+	at org.eclipse.jdt.internal.compiler.lookup.PolyTypeBinding.isCompatibleWith(PolyTypeBinding.java:37)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.parameterCompatibilityLevel(Scope.java:4790)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.parameterCompatibilityLevel(Scope.java:4757)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.computeCompatibleMethod(Scope.java:773)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.computeCompatibleMethod(Scope.java:700)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.findMethod0(Scope.java:1656)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.findMethod(Scope.java:1557)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.getMethod(Scope.java:2840)
+	at org.eclipse.jdt.internal.compiler.ast.MessageSend.findMethodBinding(MessageSend.java:915)
+	at org.eclipse.jdt.internal.compiler.ast.MessageSend.resolveType(MessageSend.java:729)
+	at org.eclipse.jdt.internal.compiler.ast.MessageSend.resolveType(MessageSend.java:684)
+	at org.eclipse.jdt.internal.compiler.ast.MessageSend.resolveType(MessageSend.java:636)
+	at org.eclipse.jdt.internal.compiler.ast.Expression.resolve(Expression.java:1026)
+	at org.eclipse.jdt.internal.compiler.ast.AbstractMethodDeclaration.resolveStatements(AbstractMethodDeclaration.java:634)
+	at org.eclipse.jdt.internal.compiler.ast.MethodDeclaration.resolveStatements(MethodDeclaration.java:306)
+	at org.eclipse.jdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:544)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve(TypeDeclaration.java:1195)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve(TypeDeclaration.java:1308)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.resolve(CompilationUnitDeclaration.java:593)
+	at org.eclipse.jdt.internal.compiler.Compiler.resolve(Compiler.java:1030)
+	at org.eclipse.jdt.internal.core.CompilationUnitProblemFinder.process(CompilationUnitProblemFinder.java:197)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:194)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:259)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:579)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1085)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:171)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:90)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:724)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:790)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1250)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:128)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.access$0(JavaReconcilingStrategy.java:110)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:90)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:87)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:154)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:89)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:104)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:73)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+
+!ENTRY org.eclipse.jdt.ui 4 2 2017-09-10 17:11:40.446
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.ui".
+!STACK 1
+Java Model Exception: java.lang.NullPointerException
+	at org.eclipse.jdt.internal.core.CompilationUnitProblemFinder.process(CompilationUnitProblemFinder.java:249)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:194)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:259)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:579)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1085)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:171)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:90)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:724)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:790)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1250)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:128)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.access$0(JavaReconcilingStrategy.java:110)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:90)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:87)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:154)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:89)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:104)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:73)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+Caused by: java.lang.NullPointerException
+	at org.eclipse.jdt.internal.compiler.ast.ReferenceExpression.copy(ReferenceExpression.java:141)
+	at org.eclipse.jdt.internal.compiler.ast.ReferenceExpression.cachedResolvedCopy(ReferenceExpression.java:819)
+	at org.eclipse.jdt.internal.compiler.ast.ReferenceExpression.isCompatibleWith(ReferenceExpression.java:1085)
+	at org.eclipse.jdt.internal.compiler.lookup.PolyTypeBinding.isCompatibleWith(PolyTypeBinding.java:37)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.parameterCompatibilityLevel(Scope.java:4790)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.parameterCompatibilityLevel(Scope.java:4757)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.computeCompatibleMethod(Scope.java:773)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.computeCompatibleMethod(Scope.java:700)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.findMethod0(Scope.java:1656)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.findMethod(Scope.java:1557)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.getMethod(Scope.java:2840)
+	at org.eclipse.jdt.internal.compiler.ast.MessageSend.findMethodBinding(MessageSend.java:915)
+	at org.eclipse.jdt.internal.compiler.ast.MessageSend.resolveType(MessageSend.java:729)
+	at org.eclipse.jdt.internal.compiler.ast.MessageSend.resolveType(MessageSend.java:684)
+	at org.eclipse.jdt.internal.compiler.ast.MessageSend.resolveType(MessageSend.java:636)
+	at org.eclipse.jdt.internal.compiler.ast.Expression.resolve(Expression.java:1026)
+	at org.eclipse.jdt.internal.compiler.ast.AbstractMethodDeclaration.resolveStatements(AbstractMethodDeclaration.java:634)
+	at org.eclipse.jdt.internal.compiler.ast.MethodDeclaration.resolveStatements(MethodDeclaration.java:306)
+	at org.eclipse.jdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:544)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve(TypeDeclaration.java:1195)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve(TypeDeclaration.java:1308)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.resolve(CompilationUnitDeclaration.java:593)
+	at org.eclipse.jdt.internal.compiler.Compiler.resolve(Compiler.java:1030)
+	at org.eclipse.jdt.internal.core.CompilationUnitProblemFinder.process(CompilationUnitProblemFinder.java:197)
+	... 19 more
+Caused by: java.lang.NullPointerException
+	at org.eclipse.jdt.internal.compiler.ast.ReferenceExpression.copy(ReferenceExpression.java:141)
+	at org.eclipse.jdt.internal.compiler.ast.ReferenceExpression.cachedResolvedCopy(ReferenceExpression.java:819)
+	at org.eclipse.jdt.internal.compiler.ast.ReferenceExpression.isCompatibleWith(ReferenceExpression.java:1085)
+	at org.eclipse.jdt.internal.compiler.lookup.PolyTypeBinding.isCompatibleWith(PolyTypeBinding.java:37)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.parameterCompatibilityLevel(Scope.java:4790)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.parameterCompatibilityLevel(Scope.java:4757)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.computeCompatibleMethod(Scope.java:773)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.computeCompatibleMethod(Scope.java:700)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.findMethod0(Scope.java:1656)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.findMethod(Scope.java:1557)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.getMethod(Scope.java:2840)
+	at org.eclipse.jdt.internal.compiler.ast.MessageSend.findMethodBinding(MessageSend.java:915)
+	at org.eclipse.jdt.internal.compiler.ast.MessageSend.resolveType(MessageSend.java:729)
+	at org.eclipse.jdt.internal.compiler.ast.MessageSend.resolveType(MessageSend.java:684)
+	at org.eclipse.jdt.internal.compiler.ast.MessageSend.resolveType(MessageSend.java:636)
+	at org.eclipse.jdt.internal.compiler.ast.Expression.resolve(Expression.java:1026)
+	at org.eclipse.jdt.internal.compiler.ast.AbstractMethodDeclaration.resolveStatements(AbstractMethodDeclaration.java:634)
+	at org.eclipse.jdt.internal.compiler.ast.MethodDeclaration.resolveStatements(MethodDeclaration.java:306)
+	at org.eclipse.jdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:544)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve(TypeDeclaration.java:1195)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve(TypeDeclaration.java:1308)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.resolve(CompilationUnitDeclaration.java:593)
+	at org.eclipse.jdt.internal.compiler.Compiler.resolve(Compiler.java:1030)
+	at org.eclipse.jdt.internal.core.CompilationUnitProblemFinder.process(CompilationUnitProblemFinder.java:197)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:194)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:259)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:579)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1085)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:171)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:90)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:724)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:790)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1250)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:128)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.access$0(JavaReconcilingStrategy.java:110)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:90)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:87)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:154)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:89)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:104)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:73)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1005 2017-09-10 17:11:40.447
+!MESSAGE java.lang.NullPointerException
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jdt.internal.compiler.ast.ReferenceExpression.copy(ReferenceExpression.java:141)
+	at org.eclipse.jdt.internal.compiler.ast.ReferenceExpression.cachedResolvedCopy(ReferenceExpression.java:819)
+	at org.eclipse.jdt.internal.compiler.ast.ReferenceExpression.isCompatibleWith(ReferenceExpression.java:1085)
+	at org.eclipse.jdt.internal.compiler.lookup.PolyTypeBinding.isCompatibleWith(PolyTypeBinding.java:37)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.parameterCompatibilityLevel(Scope.java:4790)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.parameterCompatibilityLevel(Scope.java:4757)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.computeCompatibleMethod(Scope.java:773)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.computeCompatibleMethod(Scope.java:700)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.findMethod0(Scope.java:1656)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.findMethod(Scope.java:1557)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.getMethod(Scope.java:2840)
+	at org.eclipse.jdt.internal.compiler.ast.MessageSend.findMethodBinding(MessageSend.java:915)
+	at org.eclipse.jdt.internal.compiler.ast.MessageSend.resolveType(MessageSend.java:729)
+	at org.eclipse.jdt.internal.compiler.ast.MessageSend.resolveType(MessageSend.java:684)
+	at org.eclipse.jdt.internal.compiler.ast.MessageSend.resolveType(MessageSend.java:636)
+	at org.eclipse.jdt.internal.compiler.ast.Expression.resolve(Expression.java:1026)
+	at org.eclipse.jdt.internal.compiler.ast.AbstractMethodDeclaration.resolveStatements(AbstractMethodDeclaration.java:634)
+	at org.eclipse.jdt.internal.compiler.ast.MethodDeclaration.resolveStatements(MethodDeclaration.java:306)
+	at org.eclipse.jdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:544)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve(TypeDeclaration.java:1195)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve(TypeDeclaration.java:1308)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.resolve(CompilationUnitDeclaration.java:593)
+	at org.eclipse.jdt.internal.compiler.Compiler.resolve(Compiler.java:1030)
+	at org.eclipse.jdt.internal.core.CompilationUnitProblemFinder.process(CompilationUnitProblemFinder.java:197)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:194)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:259)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:579)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1085)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:171)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:90)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:724)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:790)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1250)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:128)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.access$0(JavaReconcilingStrategy.java:110)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:90)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:87)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:154)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:89)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:104)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:73)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1005 2017-09-10 17:11:40.447
+!MESSAGE java.lang.NullPointerException
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jdt.internal.compiler.ast.ReferenceExpression.copy(ReferenceExpression.java:141)
+	at org.eclipse.jdt.internal.compiler.ast.ReferenceExpression.cachedResolvedCopy(ReferenceExpression.java:819)
+	at org.eclipse.jdt.internal.compiler.ast.ReferenceExpression.isCompatibleWith(ReferenceExpression.java:1085)
+	at org.eclipse.jdt.internal.compiler.lookup.PolyTypeBinding.isCompatibleWith(PolyTypeBinding.java:37)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.parameterCompatibilityLevel(Scope.java:4790)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.parameterCompatibilityLevel(Scope.java:4757)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.computeCompatibleMethod(Scope.java:773)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.computeCompatibleMethod(Scope.java:700)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.findMethod0(Scope.java:1656)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.findMethod(Scope.java:1557)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.getMethod(Scope.java:2840)
+	at org.eclipse.jdt.internal.compiler.ast.MessageSend.findMethodBinding(MessageSend.java:915)
+	at org.eclipse.jdt.internal.compiler.ast.MessageSend.resolveType(MessageSend.java:729)
+	at org.eclipse.jdt.internal.compiler.ast.MessageSend.resolveType(MessageSend.java:684)
+	at org.eclipse.jdt.internal.compiler.ast.MessageSend.resolveType(MessageSend.java:636)
+	at org.eclipse.jdt.internal.compiler.ast.Expression.resolve(Expression.java:1026)
+	at org.eclipse.jdt.internal.compiler.ast.AbstractMethodDeclaration.resolveStatements(AbstractMethodDeclaration.java:634)
+	at org.eclipse.jdt.internal.compiler.ast.MethodDeclaration.resolveStatements(MethodDeclaration.java:306)
+	at org.eclipse.jdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:544)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve(TypeDeclaration.java:1195)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve(TypeDeclaration.java:1308)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.resolve(CompilationUnitDeclaration.java:593)
+	at org.eclipse.jdt.internal.compiler.Compiler.resolve(Compiler.java:1030)
+	at org.eclipse.jdt.internal.core.CompilationUnitProblemFinder.process(CompilationUnitProblemFinder.java:197)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:194)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:259)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:579)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1085)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:171)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:90)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:724)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:790)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1250)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:128)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.access$0(JavaReconcilingStrategy.java:110)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:90)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:87)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:154)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:89)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:104)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:73)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+
+!ENTRY org.eclipse.jdt.ui 4 0 2017-09-10 17:11:40.450
+!MESSAGE Error in JDT Core during reconcile
+!STACK 1
+Java Model Exception: java.lang.NullPointerException
+	at org.eclipse.jdt.internal.core.CompilationUnitProblemFinder.process(CompilationUnitProblemFinder.java:249)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:194)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:259)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:579)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1085)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:171)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:90)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:724)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:790)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1250)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:128)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.access$0(JavaReconcilingStrategy.java:110)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:90)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:87)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:154)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:89)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:104)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:73)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+Caused by: java.lang.NullPointerException
+	at org.eclipse.jdt.internal.compiler.ast.ReferenceExpression.copy(ReferenceExpression.java:141)
+	at org.eclipse.jdt.internal.compiler.ast.ReferenceExpression.cachedResolvedCopy(ReferenceExpression.java:819)
+	at org.eclipse.jdt.internal.compiler.ast.ReferenceExpression.isCompatibleWith(ReferenceExpression.java:1085)
+	at org.eclipse.jdt.internal.compiler.lookup.PolyTypeBinding.isCompatibleWith(PolyTypeBinding.java:37)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.parameterCompatibilityLevel(Scope.java:4790)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.parameterCompatibilityLevel(Scope.java:4757)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.computeCompatibleMethod(Scope.java:773)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.computeCompatibleMethod(Scope.java:700)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.findMethod0(Scope.java:1656)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.findMethod(Scope.java:1557)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.getMethod(Scope.java:2840)
+	at org.eclipse.jdt.internal.compiler.ast.MessageSend.findMethodBinding(MessageSend.java:915)
+	at org.eclipse.jdt.internal.compiler.ast.MessageSend.resolveType(MessageSend.java:729)
+	at org.eclipse.jdt.internal.compiler.ast.MessageSend.resolveType(MessageSend.java:684)
+	at org.eclipse.jdt.internal.compiler.ast.MessageSend.resolveType(MessageSend.java:636)
+	at org.eclipse.jdt.internal.compiler.ast.Expression.resolve(Expression.java:1026)
+	at org.eclipse.jdt.internal.compiler.ast.AbstractMethodDeclaration.resolveStatements(AbstractMethodDeclaration.java:634)
+	at org.eclipse.jdt.internal.compiler.ast.MethodDeclaration.resolveStatements(MethodDeclaration.java:306)
+	at org.eclipse.jdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:544)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve(TypeDeclaration.java:1195)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve(TypeDeclaration.java:1308)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.resolve(CompilationUnitDeclaration.java:593)
+	at org.eclipse.jdt.internal.compiler.Compiler.resolve(Compiler.java:1030)
+	at org.eclipse.jdt.internal.core.CompilationUnitProblemFinder.process(CompilationUnitProblemFinder.java:197)
+	... 19 more
+Caused by: java.lang.NullPointerException
+	at org.eclipse.jdt.internal.compiler.ast.ReferenceExpression.copy(ReferenceExpression.java:141)
+	at org.eclipse.jdt.internal.compiler.ast.ReferenceExpression.cachedResolvedCopy(ReferenceExpression.java:819)
+	at org.eclipse.jdt.internal.compiler.ast.ReferenceExpression.isCompatibleWith(ReferenceExpression.java:1085)
+	at org.eclipse.jdt.internal.compiler.lookup.PolyTypeBinding.isCompatibleWith(PolyTypeBinding.java:37)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.parameterCompatibilityLevel(Scope.java:4790)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.parameterCompatibilityLevel(Scope.java:4757)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.computeCompatibleMethod(Scope.java:773)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.computeCompatibleMethod(Scope.java:700)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.findMethod0(Scope.java:1656)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.findMethod(Scope.java:1557)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.getMethod(Scope.java:2840)
+	at org.eclipse.jdt.internal.compiler.ast.MessageSend.findMethodBinding(MessageSend.java:915)
+	at org.eclipse.jdt.internal.compiler.ast.MessageSend.resolveType(MessageSend.java:729)
+	at org.eclipse.jdt.internal.compiler.ast.MessageSend.resolveType(MessageSend.java:684)
+	at org.eclipse.jdt.internal.compiler.ast.MessageSend.resolveType(MessageSend.java:636)
+	at org.eclipse.jdt.internal.compiler.ast.Expression.resolve(Expression.java:1026)
+	at org.eclipse.jdt.internal.compiler.ast.AbstractMethodDeclaration.resolveStatements(AbstractMethodDeclaration.java:634)
+	at org.eclipse.jdt.internal.compiler.ast.MethodDeclaration.resolveStatements(MethodDeclaration.java:306)
+	at org.eclipse.jdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:544)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve(TypeDeclaration.java:1195)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve(TypeDeclaration.java:1308)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.resolve(CompilationUnitDeclaration.java:593)
+	at org.eclipse.jdt.internal.compiler.Compiler.resolve(Compiler.java:1030)
+	at org.eclipse.jdt.internal.core.CompilationUnitProblemFinder.process(CompilationUnitProblemFinder.java:197)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:194)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:259)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:579)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1085)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:171)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:90)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:724)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:790)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1250)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:128)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.access$0(JavaReconcilingStrategy.java:110)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:90)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:87)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:154)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:89)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:104)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:73)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1005 2017-09-10 17:11:40.450
+!MESSAGE java.lang.NullPointerException
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jdt.internal.compiler.ast.ReferenceExpression.copy(ReferenceExpression.java:141)
+	at org.eclipse.jdt.internal.compiler.ast.ReferenceExpression.cachedResolvedCopy(ReferenceExpression.java:819)
+	at org.eclipse.jdt.internal.compiler.ast.ReferenceExpression.isCompatibleWith(ReferenceExpression.java:1085)
+	at org.eclipse.jdt.internal.compiler.lookup.PolyTypeBinding.isCompatibleWith(PolyTypeBinding.java:37)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.parameterCompatibilityLevel(Scope.java:4790)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.parameterCompatibilityLevel(Scope.java:4757)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.computeCompatibleMethod(Scope.java:773)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.computeCompatibleMethod(Scope.java:700)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.findMethod0(Scope.java:1656)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.findMethod(Scope.java:1557)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.getMethod(Scope.java:2840)
+	at org.eclipse.jdt.internal.compiler.ast.MessageSend.findMethodBinding(MessageSend.java:915)
+	at org.eclipse.jdt.internal.compiler.ast.MessageSend.resolveType(MessageSend.java:729)
+	at org.eclipse.jdt.internal.compiler.ast.MessageSend.resolveType(MessageSend.java:684)
+	at org.eclipse.jdt.internal.compiler.ast.MessageSend.resolveType(MessageSend.java:636)
+	at org.eclipse.jdt.internal.compiler.ast.Expression.resolve(Expression.java:1026)
+	at org.eclipse.jdt.internal.compiler.ast.AbstractMethodDeclaration.resolveStatements(AbstractMethodDeclaration.java:634)
+	at org.eclipse.jdt.internal.compiler.ast.MethodDeclaration.resolveStatements(MethodDeclaration.java:306)
+	at org.eclipse.jdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:544)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve(TypeDeclaration.java:1195)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve(TypeDeclaration.java:1308)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.resolve(CompilationUnitDeclaration.java:593)
+	at org.eclipse.jdt.internal.compiler.Compiler.resolve(Compiler.java:1030)
+	at org.eclipse.jdt.internal.core.CompilationUnitProblemFinder.process(CompilationUnitProblemFinder.java:197)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:194)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:259)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:579)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1085)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:171)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:90)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:724)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:790)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1250)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:128)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.access$0(JavaReconcilingStrategy.java:110)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:90)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:87)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:154)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:89)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:104)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:73)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+
+!ENTRY org.eclipse.jdt.ui 4 2 2017-09-10 17:11:44.993
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.ui".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jdt.internal.compiler.ast.ReferenceExpression.copy(ReferenceExpression.java:141)
+	at org.eclipse.jdt.internal.compiler.ast.ReferenceExpression.cachedResolvedCopy(ReferenceExpression.java:819)
+	at org.eclipse.jdt.internal.compiler.ast.ReferenceExpression.isCompatibleWith(ReferenceExpression.java:1085)
+	at org.eclipse.jdt.internal.compiler.lookup.PolyTypeBinding.isCompatibleWith(PolyTypeBinding.java:37)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.parameterCompatibilityLevel(Scope.java:4790)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.parameterCompatibilityLevel(Scope.java:4757)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.computeCompatibleMethod(Scope.java:773)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.computeCompatibleMethod(Scope.java:700)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.findMethod0(Scope.java:1656)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.findMethod(Scope.java:1557)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.getMethod(Scope.java:2840)
+	at org.eclipse.jdt.internal.compiler.ast.MessageSend.findMethodBinding(MessageSend.java:915)
+	at org.eclipse.jdt.internal.compiler.ast.MessageSend.resolveType(MessageSend.java:729)
+	at org.eclipse.jdt.internal.compiler.ast.MessageSend.resolveType(MessageSend.java:684)
+	at org.eclipse.jdt.internal.compiler.ast.MessageSend.resolveType(MessageSend.java:636)
+	at org.eclipse.jdt.internal.compiler.ast.Expression.resolve(Expression.java:1026)
+	at org.eclipse.jdt.internal.compiler.ast.AbstractMethodDeclaration.resolveStatements(AbstractMethodDeclaration.java:634)
+	at org.eclipse.jdt.internal.compiler.ast.MethodDeclaration.resolveStatements(MethodDeclaration.java:306)
+	at org.eclipse.jdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:544)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve(TypeDeclaration.java:1195)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve(TypeDeclaration.java:1308)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.resolve(CompilationUnitDeclaration.java:593)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1218)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:692)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1190)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:812)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider$1.run(ASTProvider.java:551)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider.createAST(ASTProvider.java:543)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider.getAST(ASTProvider.java:486)
+	at org.eclipse.jdt.ui.SharedASTProvider.getAST(SharedASTProvider.java:128)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:173)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$3.run(SelectionListenerWithASTManager.java:158)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.jdt.ui 4 0 2017-09-10 17:11:44.996
+!MESSAGE Error in JDT Core during AST creation
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jdt.internal.compiler.ast.ReferenceExpression.copy(ReferenceExpression.java:141)
+	at org.eclipse.jdt.internal.compiler.ast.ReferenceExpression.cachedResolvedCopy(ReferenceExpression.java:819)
+	at org.eclipse.jdt.internal.compiler.ast.ReferenceExpression.isCompatibleWith(ReferenceExpression.java:1085)
+	at org.eclipse.jdt.internal.compiler.lookup.PolyTypeBinding.isCompatibleWith(PolyTypeBinding.java:37)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.parameterCompatibilityLevel(Scope.java:4790)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.parameterCompatibilityLevel(Scope.java:4757)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.computeCompatibleMethod(Scope.java:773)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.computeCompatibleMethod(Scope.java:700)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.findMethod0(Scope.java:1656)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.findMethod(Scope.java:1557)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.getMethod(Scope.java:2840)
+	at org.eclipse.jdt.internal.compiler.ast.MessageSend.findMethodBinding(MessageSend.java:915)
+	at org.eclipse.jdt.internal.compiler.ast.MessageSend.resolveType(MessageSend.java:729)
+	at org.eclipse.jdt.internal.compiler.ast.MessageSend.resolveType(MessageSend.java:684)
+	at org.eclipse.jdt.internal.compiler.ast.MessageSend.resolveType(MessageSend.java:636)
+	at org.eclipse.jdt.internal.compiler.ast.Expression.resolve(Expression.java:1026)
+	at org.eclipse.jdt.internal.compiler.ast.AbstractMethodDeclaration.resolveStatements(AbstractMethodDeclaration.java:634)
+	at org.eclipse.jdt.internal.compiler.ast.MethodDeclaration.resolveStatements(MethodDeclaration.java:306)
+	at org.eclipse.jdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:544)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve(TypeDeclaration.java:1195)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve(TypeDeclaration.java:1308)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.resolve(CompilationUnitDeclaration.java:593)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1218)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:692)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1190)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:812)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider$1.run(ASTProvider.java:551)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider.createAST(ASTProvider.java:543)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider.getAST(ASTProvider.java:486)
+	at org.eclipse.jdt.ui.SharedASTProvider.getAST(SharedASTProvider.java:128)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:173)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$3.run(SelectionListenerWithASTManager.java:158)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.jdt.ui 4 2 2017-09-10 17:11:45.133
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.ui".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jdt.internal.compiler.ast.ReferenceExpression.copy(ReferenceExpression.java:141)
+	at org.eclipse.jdt.internal.compiler.ast.ReferenceExpression.cachedResolvedCopy(ReferenceExpression.java:819)
+	at org.eclipse.jdt.internal.compiler.ast.ReferenceExpression.isCompatibleWith(ReferenceExpression.java:1085)
+	at org.eclipse.jdt.internal.compiler.lookup.PolyTypeBinding.isCompatibleWith(PolyTypeBinding.java:37)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.parameterCompatibilityLevel(Scope.java:4790)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.parameterCompatibilityLevel(Scope.java:4757)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.computeCompatibleMethod(Scope.java:773)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.computeCompatibleMethod(Scope.java:700)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.findMethod0(Scope.java:1656)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.findMethod(Scope.java:1557)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.getMethod(Scope.java:2840)
+	at org.eclipse.jdt.internal.compiler.ast.MessageSend.findMethodBinding(MessageSend.java:915)
+	at org.eclipse.jdt.internal.compiler.ast.MessageSend.resolveType(MessageSend.java:729)
+	at org.eclipse.jdt.internal.compiler.ast.MessageSend.resolveType(MessageSend.java:684)
+	at org.eclipse.jdt.internal.compiler.ast.MessageSend.resolveType(MessageSend.java:636)
+	at org.eclipse.jdt.internal.compiler.ast.Expression.resolve(Expression.java:1026)
+	at org.eclipse.jdt.internal.compiler.ast.AbstractMethodDeclaration.resolveStatements(AbstractMethodDeclaration.java:634)
+	at org.eclipse.jdt.internal.compiler.ast.MethodDeclaration.resolveStatements(MethodDeclaration.java:306)
+	at org.eclipse.jdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:544)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve(TypeDeclaration.java:1195)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve(TypeDeclaration.java:1308)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.resolve(CompilationUnitDeclaration.java:593)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1218)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:692)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1190)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:812)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider$1.run(ASTProvider.java:551)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider.createAST(ASTProvider.java:543)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider.getAST(ASTProvider.java:486)
+	at org.eclipse.jdt.ui.SharedASTProvider.getAST(SharedASTProvider.java:128)
+	at org.eclipse.jdt.internal.ui.text.java.hover.NLSStringHover.internalGetHoverInfo(NLSStringHover.java:137)
+	at org.eclipse.jdt.internal.ui.text.java.hover.NLSStringHover.getHoverInfo2(NLSStringHover.java:116)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:164)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:86)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:165)
+
+!ENTRY org.eclipse.jdt.ui 4 0 2017-09-10 17:11:45.134
+!MESSAGE Error in JDT Core during AST creation
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jdt.internal.compiler.ast.ReferenceExpression.copy(ReferenceExpression.java:141)
+	at org.eclipse.jdt.internal.compiler.ast.ReferenceExpression.cachedResolvedCopy(ReferenceExpression.java:819)
+	at org.eclipse.jdt.internal.compiler.ast.ReferenceExpression.isCompatibleWith(ReferenceExpression.java:1085)
+	at org.eclipse.jdt.internal.compiler.lookup.PolyTypeBinding.isCompatibleWith(PolyTypeBinding.java:37)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.parameterCompatibilityLevel(Scope.java:4790)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.parameterCompatibilityLevel(Scope.java:4757)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.computeCompatibleMethod(Scope.java:773)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.computeCompatibleMethod(Scope.java:700)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.findMethod0(Scope.java:1656)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.findMethod(Scope.java:1557)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.getMethod(Scope.java:2840)
+	at org.eclipse.jdt.internal.compiler.ast.MessageSend.findMethodBinding(MessageSend.java:915)
+	at org.eclipse.jdt.internal.compiler.ast.MessageSend.resolveType(MessageSend.java:729)
+	at org.eclipse.jdt.internal.compiler.ast.MessageSend.resolveType(MessageSend.java:684)
+	at org.eclipse.jdt.internal.compiler.ast.MessageSend.resolveType(MessageSend.java:636)
+	at org.eclipse.jdt.internal.compiler.ast.Expression.resolve(Expression.java:1026)
+	at org.eclipse.jdt.internal.compiler.ast.AbstractMethodDeclaration.resolveStatements(AbstractMethodDeclaration.java:634)
+	at org.eclipse.jdt.internal.compiler.ast.MethodDeclaration.resolveStatements(MethodDeclaration.java:306)
+	at org.eclipse.jdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:544)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve(TypeDeclaration.java:1195)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve(TypeDeclaration.java:1308)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.resolve(CompilationUnitDeclaration.java:593)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1218)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:692)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1190)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:812)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider$1.run(ASTProvider.java:551)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider.createAST(ASTProvider.java:543)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider.getAST(ASTProvider.java:486)
+	at org.eclipse.jdt.ui.SharedASTProvider.getAST(SharedASTProvider.java:128)
+	at org.eclipse.jdt.internal.ui.text.java.hover.NLSStringHover.internalGetHoverInfo(NLSStringHover.java:137)
+	at org.eclipse.jdt.internal.ui.text.java.hover.NLSStringHover.getHoverInfo2(NLSStringHover.java:116)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:164)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:86)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:165)
+
+!ENTRY org.testng.eclipse 1 0 2017-09-10 17:12:14.980
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /Users/Mamun/Desktop/selenium/java-neon/Eclipse.app/Contents/Eclipse/configuration/org.eclipse.osgi/475/0/.cp/lib/testng-remote.jar /Users/Mamun/Desktop/selenium/java_practice_eclipse/Selenium_WebDriver/bin /Users/Mamun/Downloads/selenium-server-standalone-3.5.3.jar /Users/Mamun/.p2/pool/plugins/org.testng_6.12.0.r201709030044.jar /Users/Mamun/.p2/pool/plugins/com.beust.jcommander_1.66.0.jar /Users/Mamun/.p2/pool/plugins/org.apache-extras.beanshell.bsh_2.0.0.b6.jar /Users/Mamun/.p2/pool/plugins/org.yaml.snakeyaml_1.17.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 57411 -protocol json -d /Users/Mamun/Desktop/selenium/java_practice_eclipse/Selenium_WebDriver/test-output /var/folders/1d/hr3dqy8j4f11t5wgc61t25zw0000gn/T/testng-eclipse-243055657/testng-customsuite.xml
+java -ea -classpath /Users/Mamun/Desktop/selenium/java-neon/Eclipse.app/Contents/Eclipse/configuration/org.eclipse.osgi/475/0/.cp/lib/testng-remote.jar:/Users/Mamun/Desktop/selenium/java_practice_eclipse/Selenium_WebDriver/bin:/Users/Mamun/Downloads/selenium-server-standalone-3.5.3.jar:/Users/Mamun/.p2/pool/plugins/org.testng_6.12.0.r201709030044.jar:/Users/Mamun/.p2/pool/plugins/com.beust.jcommander_1.66.0.jar:/Users/Mamun/.p2/pool/plugins/org.apache-extras.beanshell.bsh_2.0.0.b6.jar:/Users/Mamun/.p2/pool/plugins/org.yaml.snakeyaml_1.17.0.jar org.testng.remote.RemoteTestNG -serport 57411 -protocol json -d /Users/Mamun/Desktop/selenium/java_practice_eclipse/Selenium_WebDriver/test-output /var/folders/1d/hr3dqy8j4f11t5wgc61t25zw0000gn/T/testng-eclipse-243055657/testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2017-09-10 17:12:55.414
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /Users/Mamun/Desktop/selenium/java-neon/Eclipse.app/Contents/Eclipse/configuration/org.eclipse.osgi/475/0/.cp/lib/testng-remote.jar /Users/Mamun/Desktop/selenium/java_practice_eclipse/Selenium_WebDriver/bin /Users/Mamun/Downloads/selenium-server-standalone-3.5.3.jar /Users/Mamun/.p2/pool/plugins/org.testng_6.12.0.r201709030044.jar /Users/Mamun/.p2/pool/plugins/com.beust.jcommander_1.66.0.jar /Users/Mamun/.p2/pool/plugins/org.apache-extras.beanshell.bsh_2.0.0.b6.jar /Users/Mamun/.p2/pool/plugins/org.yaml.snakeyaml_1.17.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 57528 -protocol json -d /Users/Mamun/Desktop/selenium/java_practice_eclipse/Selenium_WebDriver/test-output /var/folders/1d/hr3dqy8j4f11t5wgc61t25zw0000gn/T/testng-eclipse-668850096/testng-customsuite.xml
+java -ea -classpath /Users/Mamun/Desktop/selenium/java-neon/Eclipse.app/Contents/Eclipse/configuration/org.eclipse.osgi/475/0/.cp/lib/testng-remote.jar:/Users/Mamun/Desktop/selenium/java_practice_eclipse/Selenium_WebDriver/bin:/Users/Mamun/Downloads/selenium-server-standalone-3.5.3.jar:/Users/Mamun/.p2/pool/plugins/org.testng_6.12.0.r201709030044.jar:/Users/Mamun/.p2/pool/plugins/com.beust.jcommander_1.66.0.jar:/Users/Mamun/.p2/pool/plugins/org.apache-extras.beanshell.bsh_2.0.0.b6.jar:/Users/Mamun/.p2/pool/plugins/org.yaml.snakeyaml_1.17.0.jar org.testng.remote.RemoteTestNG -serport 57528 -protocol json -d /Users/Mamun/Desktop/selenium/java_practice_eclipse/Selenium_WebDriver/test-output /var/folders/1d/hr3dqy8j4f11t5wgc61t25zw0000gn/T/testng-eclipse-668850096/testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2017-09-10 17:20:39.765
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /Users/Mamun/Desktop/selenium/java-neon/Eclipse.app/Contents/Eclipse/configuration/org.eclipse.osgi/475/0/.cp/lib/testng-remote.jar /Users/Mamun/Desktop/selenium/java_practice_eclipse/Selenium_WebDriver/bin /Users/Mamun/Downloads/selenium-server-standalone-3.5.3.jar /Users/Mamun/.p2/pool/plugins/org.testng_6.12.0.r201709030044.jar /Users/Mamun/.p2/pool/plugins/com.beust.jcommander_1.66.0.jar /Users/Mamun/.p2/pool/plugins/org.apache-extras.beanshell.bsh_2.0.0.b6.jar /Users/Mamun/.p2/pool/plugins/org.yaml.snakeyaml_1.17.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 58114 -protocol json -d /Users/Mamun/Desktop/selenium/java_practice_eclipse/Selenium_WebDriver/test-output /var/folders/1d/hr3dqy8j4f11t5wgc61t25zw0000gn/T/testng-eclipse-358415742/testng-customsuite.xml
+java -ea -classpath /Users/Mamun/Desktop/selenium/java-neon/Eclipse.app/Contents/Eclipse/configuration/org.eclipse.osgi/475/0/.cp/lib/testng-remote.jar:/Users/Mamun/Desktop/selenium/java_practice_eclipse/Selenium_WebDriver/bin:/Users/Mamun/Downloads/selenium-server-standalone-3.5.3.jar:/Users/Mamun/.p2/pool/plugins/org.testng_6.12.0.r201709030044.jar:/Users/Mamun/.p2/pool/plugins/com.beust.jcommander_1.66.0.jar:/Users/Mamun/.p2/pool/plugins/org.apache-extras.beanshell.bsh_2.0.0.b6.jar:/Users/Mamun/.p2/pool/plugins/org.yaml.snakeyaml_1.17.0.jar org.testng.remote.RemoteTestNG -serport 58114 -protocol json -d /Users/Mamun/Desktop/selenium/java_practice_eclipse/Selenium_WebDriver/test-output /var/folders/1d/hr3dqy8j4f11t5wgc61t25zw0000gn/T/testng-eclipse-358415742/testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2017-09-10 17:21:36.935
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /Users/Mamun/Desktop/selenium/java-neon/Eclipse.app/Contents/Eclipse/configuration/org.eclipse.osgi/475/0/.cp/lib/testng-remote.jar /Users/Mamun/Desktop/selenium/java_practice_eclipse/Selenium_WebDriver/bin /Users/Mamun/Downloads/selenium-server-standalone-3.5.3.jar /Users/Mamun/.p2/pool/plugins/org.testng_6.12.0.r201709030044.jar /Users/Mamun/.p2/pool/plugins/com.beust.jcommander_1.66.0.jar /Users/Mamun/.p2/pool/plugins/org.apache-extras.beanshell.bsh_2.0.0.b6.jar /Users/Mamun/.p2/pool/plugins/org.yaml.snakeyaml_1.17.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 58177 -protocol json -d /Users/Mamun/Desktop/selenium/java_practice_eclipse/Selenium_WebDriver/test-output /var/folders/1d/hr3dqy8j4f11t5wgc61t25zw0000gn/T/testng-eclipse--1383834547/testng-customsuite.xml
+java -ea -classpath /Users/Mamun/Desktop/selenium/java-neon/Eclipse.app/Contents/Eclipse/configuration/org.eclipse.osgi/475/0/.cp/lib/testng-remote.jar:/Users/Mamun/Desktop/selenium/java_practice_eclipse/Selenium_WebDriver/bin:/Users/Mamun/Downloads/selenium-server-standalone-3.5.3.jar:/Users/Mamun/.p2/pool/plugins/org.testng_6.12.0.r201709030044.jar:/Users/Mamun/.p2/pool/plugins/com.beust.jcommander_1.66.0.jar:/Users/Mamun/.p2/pool/plugins/org.apache-extras.beanshell.bsh_2.0.0.b6.jar:/Users/Mamun/.p2/pool/plugins/org.yaml.snakeyaml_1.17.0.jar org.testng.remote.RemoteTestNG -serport 58177 -protocol json -d /Users/Mamun/Desktop/selenium/java_practice_eclipse/Selenium_WebDriver/test-output /var/folders/1d/hr3dqy8j4f11t5wgc61t25zw0000gn/T/testng-eclipse--1383834547/testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2017-09-10 17:23:07.184
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /Users/Mamun/Desktop/selenium/java-neon/Eclipse.app/Contents/Eclipse/configuration/org.eclipse.osgi/475/0/.cp/lib/testng-remote.jar /Users/Mamun/Desktop/selenium/java_practice_eclipse/Selenium_WebDriver/bin /Users/Mamun/Downloads/selenium-server-standalone-3.5.3.jar /Users/Mamun/.p2/pool/plugins/org.testng_6.12.0.r201709030044.jar /Users/Mamun/.p2/pool/plugins/com.beust.jcommander_1.66.0.jar /Users/Mamun/.p2/pool/plugins/org.apache-extras.beanshell.bsh_2.0.0.b6.jar /Users/Mamun/.p2/pool/plugins/org.yaml.snakeyaml_1.17.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 58242 -protocol json -d /Users/Mamun/Desktop/selenium/java_practice_eclipse/Selenium_WebDriver/test-output /var/folders/1d/hr3dqy8j4f11t5wgc61t25zw0000gn/T/testng-eclipse-1680595208/testng-customsuite.xml
+java -ea -classpath /Users/Mamun/Desktop/selenium/java-neon/Eclipse.app/Contents/Eclipse/configuration/org.eclipse.osgi/475/0/.cp/lib/testng-remote.jar:/Users/Mamun/Desktop/selenium/java_practice_eclipse/Selenium_WebDriver/bin:/Users/Mamun/Downloads/selenium-server-standalone-3.5.3.jar:/Users/Mamun/.p2/pool/plugins/org.testng_6.12.0.r201709030044.jar:/Users/Mamun/.p2/pool/plugins/com.beust.jcommander_1.66.0.jar:/Users/Mamun/.p2/pool/plugins/org.apache-extras.beanshell.bsh_2.0.0.b6.jar:/Users/Mamun/.p2/pool/plugins/org.yaml.snakeyaml_1.17.0.jar org.testng.remote.RemoteTestNG -serport 58242 -protocol json -d /Users/Mamun/Desktop/selenium/java_practice_eclipse/Selenium_WebDriver/test-output /var/folders/1d/hr3dqy8j4f11t5wgc61t25zw0000gn/T/testng-eclipse-1680595208/testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2017-09-10 17:29:03.208
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /Users/Mamun/Desktop/selenium/java-neon/Eclipse.app/Contents/Eclipse/configuration/org.eclipse.osgi/475/0/.cp/lib/testng-remote.jar /Users/Mamun/Desktop/selenium/java_practice_eclipse/Selenium_WebDriver/bin /Users/Mamun/Downloads/selenium-server-standalone-3.5.3.jar /Users/Mamun/.p2/pool/plugins/org.testng_6.12.0.r201709030044.jar /Users/Mamun/.p2/pool/plugins/com.beust.jcommander_1.66.0.jar /Users/Mamun/.p2/pool/plugins/org.apache-extras.beanshell.bsh_2.0.0.b6.jar /Users/Mamun/.p2/pool/plugins/org.yaml.snakeyaml_1.17.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 58340 -protocol json -d /Users/Mamun/Desktop/selenium/java_practice_eclipse/Selenium_WebDriver/test-output /var/folders/1d/hr3dqy8j4f11t5wgc61t25zw0000gn/T/testng-eclipse--1701428057/testng-customsuite.xml
+java -ea -classpath /Users/Mamun/Desktop/selenium/java-neon/Eclipse.app/Contents/Eclipse/configuration/org.eclipse.osgi/475/0/.cp/lib/testng-remote.jar:/Users/Mamun/Desktop/selenium/java_practice_eclipse/Selenium_WebDriver/bin:/Users/Mamun/Downloads/selenium-server-standalone-3.5.3.jar:/Users/Mamun/.p2/pool/plugins/org.testng_6.12.0.r201709030044.jar:/Users/Mamun/.p2/pool/plugins/com.beust.jcommander_1.66.0.jar:/Users/Mamun/.p2/pool/plugins/org.apache-extras.beanshell.bsh_2.0.0.b6.jar:/Users/Mamun/.p2/pool/plugins/org.yaml.snakeyaml_1.17.0.jar org.testng.remote.RemoteTestNG -serport 58340 -protocol json -d /Users/Mamun/Desktop/selenium/java_practice_eclipse/Selenium_WebDriver/test-output /var/folders/1d/hr3dqy8j4f11t5wgc61t25zw0000gn/T/testng-eclipse--1701428057/testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2017-09-10 17:34:04.281
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /Users/Mamun/Desktop/selenium/java-neon/Eclipse.app/Contents/Eclipse/configuration/org.eclipse.osgi/475/0/.cp/lib/testng-remote.jar /Users/Mamun/Desktop/selenium/java_practice_eclipse/Selenium_WebDriver/bin /Users/Mamun/Downloads/selenium-server-standalone-3.5.3.jar /Users/Mamun/.p2/pool/plugins/org.testng_6.12.0.r201709030044.jar /Users/Mamun/.p2/pool/plugins/com.beust.jcommander_1.66.0.jar /Users/Mamun/.p2/pool/plugins/org.apache-extras.beanshell.bsh_2.0.0.b6.jar /Users/Mamun/.p2/pool/plugins/org.yaml.snakeyaml_1.17.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 58413 -protocol json -d /Users/Mamun/Desktop/selenium/java_practice_eclipse/Selenium_WebDriver/test-output /var/folders/1d/hr3dqy8j4f11t5wgc61t25zw0000gn/T/testng-eclipse-1154992105/testng-customsuite.xml
+java -ea -classpath /Users/Mamun/Desktop/selenium/java-neon/Eclipse.app/Contents/Eclipse/configuration/org.eclipse.osgi/475/0/.cp/lib/testng-remote.jar:/Users/Mamun/Desktop/selenium/java_practice_eclipse/Selenium_WebDriver/bin:/Users/Mamun/Downloads/selenium-server-standalone-3.5.3.jar:/Users/Mamun/.p2/pool/plugins/org.testng_6.12.0.r201709030044.jar:/Users/Mamun/.p2/pool/plugins/com.beust.jcommander_1.66.0.jar:/Users/Mamun/.p2/pool/plugins/org.apache-extras.beanshell.bsh_2.0.0.b6.jar:/Users/Mamun/.p2/pool/plugins/org.yaml.snakeyaml_1.17.0.jar org.testng.remote.RemoteTestNG -serport 58413 -protocol json -d /Users/Mamun/Desktop/selenium/java_practice_eclipse/Selenium_WebDriver/test-output /var/folders/1d/hr3dqy8j4f11t5wgc61t25zw0000gn/T/testng-eclipse-1154992105/testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2017-09-10 17:40:18.949
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:[Working copy] GmailAssert.java [in Assertion [in src [in Selenium_WebDriver]]]
+  package Assertion
+  import java.util.concurrent.TimeUnit
+  import org.openqa.selenium.By
+  import org.openqa.selenium.WebDriver
+  import org.openqa.selenium.chrome.ChromeDriver
+  import org.testng.Assert
+  import org.testng.annotations.Test
+  class GmailAssert
+    void AssertGmail()
+
+!ENTRY org.testng.eclipse 1 0 2017-09-10 17:40:20.938
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /Users/Mamun/Desktop/selenium/java-neon/Eclipse.app/Contents/Eclipse/configuration/org.eclipse.osgi/475/0/.cp/lib/testng-remote.jar /Users/Mamun/Desktop/selenium/java_practice_eclipse/Selenium_WebDriver/bin /Users/Mamun/Downloads/selenium-server-standalone-3.5.3.jar /Users/Mamun/.p2/pool/plugins/org.testng_6.12.0.r201709030044.jar /Users/Mamun/.p2/pool/plugins/com.beust.jcommander_1.66.0.jar /Users/Mamun/.p2/pool/plugins/org.apache-extras.beanshell.bsh_2.0.0.b6.jar /Users/Mamun/.p2/pool/plugins/org.yaml.snakeyaml_1.17.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 58529 -protocol json -d /Users/Mamun/Desktop/selenium/java_practice_eclipse/Selenium_WebDriver/test-output /var/folders/1d/hr3dqy8j4f11t5wgc61t25zw0000gn/T/testng-eclipse-79722909/testng-customsuite.xml
+java -ea -classpath /Users/Mamun/Desktop/selenium/java-neon/Eclipse.app/Contents/Eclipse/configuration/org.eclipse.osgi/475/0/.cp/lib/testng-remote.jar:/Users/Mamun/Desktop/selenium/java_practice_eclipse/Selenium_WebDriver/bin:/Users/Mamun/Downloads/selenium-server-standalone-3.5.3.jar:/Users/Mamun/.p2/pool/plugins/org.testng_6.12.0.r201709030044.jar:/Users/Mamun/.p2/pool/plugins/com.beust.jcommander_1.66.0.jar:/Users/Mamun/.p2/pool/plugins/org.apache-extras.beanshell.bsh_2.0.0.b6.jar:/Users/Mamun/.p2/pool/plugins/org.yaml.snakeyaml_1.17.0.jar org.testng.remote.RemoteTestNG -serport 58529 -protocol json -d /Users/Mamun/Desktop/selenium/java_practice_eclipse/Selenium_WebDriver/test-output /var/folders/1d/hr3dqy8j4f11t5wgc61t25zw0000gn/T/testng-eclipse-79722909/testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2017-09-10 17:42:07.139
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /Users/Mamun/Desktop/selenium/java-neon/Eclipse.app/Contents/Eclipse/configuration/org.eclipse.osgi/475/0/.cp/lib/testng-remote.jar /Users/Mamun/Desktop/selenium/java_practice_eclipse/Selenium_WebDriver/bin /Users/Mamun/Downloads/selenium-server-standalone-3.5.3.jar /Users/Mamun/.p2/pool/plugins/org.testng_6.12.0.r201709030044.jar /Users/Mamun/.p2/pool/plugins/com.beust.jcommander_1.66.0.jar /Users/Mamun/.p2/pool/plugins/org.apache-extras.beanshell.bsh_2.0.0.b6.jar /Users/Mamun/.p2/pool/plugins/org.yaml.snakeyaml_1.17.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 58599 -protocol json -d /Users/Mamun/Desktop/selenium/java_practice_eclipse/Selenium_WebDriver/test-output /var/folders/1d/hr3dqy8j4f11t5wgc61t25zw0000gn/T/testng-eclipse--246758696/testng-customsuite.xml
+java -ea -classpath /Users/Mamun/Desktop/selenium/java-neon/Eclipse.app/Contents/Eclipse/configuration/org.eclipse.osgi/475/0/.cp/lib/testng-remote.jar:/Users/Mamun/Desktop/selenium/java_practice_eclipse/Selenium_WebDriver/bin:/Users/Mamun/Downloads/selenium-server-standalone-3.5.3.jar:/Users/Mamun/.p2/pool/plugins/org.testng_6.12.0.r201709030044.jar:/Users/Mamun/.p2/pool/plugins/com.beust.jcommander_1.66.0.jar:/Users/Mamun/.p2/pool/plugins/org.apache-extras.beanshell.bsh_2.0.0.b6.jar:/Users/Mamun/.p2/pool/plugins/org.yaml.snakeyaml_1.17.0.jar org.testng.remote.RemoteTestNG -serport 58599 -protocol json -d /Users/Mamun/Desktop/selenium/java_practice_eclipse/Selenium_WebDriver/test-output /var/folders/1d/hr3dqy8j4f11t5wgc61t25zw0000gn/T/testng-eclipse--246758696/testng-customsuite.xml

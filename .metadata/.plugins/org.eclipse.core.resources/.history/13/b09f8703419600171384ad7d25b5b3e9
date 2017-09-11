@@ -1,0 +1,30 @@
+import java.util.concurrent.TimeUnit;
+
+import org.junit.Test;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class BootstrapDropDown {
+	
+	@Test
+	public void FacebookLogfOut(){
+		
+		System.setProperty("WebDriver.gecko.driver", "/Users/Mamun/Desktop/driver");
+		WebDriver driver = new FirefoxDriver();
+		driver.get("http://www.facebook.com");
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		driver.manage().window().maximize();
+		
+		driver.findElement(By.cssSelector("#email")).sendKeys("mamun0320@gmail.com");
+		driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
+		
+		driver.findElement(By.id("#pass")).sendKeys("march320");;
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		
+		driver.findElement(By.id("#u_0_2")).click();
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		
+	} 
+
+}

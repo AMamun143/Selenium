@@ -1,0 +1,12 @@
+package lesson1;
+
+public class variableAndDataTypes {
+
+	public static void main(String[] args) {
+		int my_variable = 15;
+		
+		System.out.println(my_variable);
+
+	}
+
+}

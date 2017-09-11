@@ -1,0 +1,17 @@
+package conditionalAndDecisionStatement;
+
+public class AllStatements {
+	/*
+	 * Syntax for If statement
+	 * if(condition){
+	 * }
+	 */
+	public static void main(String[] args) {
+		int a = 90;
+		
+		if (a <=100) {
+			System.out.println("Value os a is "+a);
+		}
+	}
+
+}

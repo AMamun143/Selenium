@@ -1,0 +1,15 @@
+package accessModifier;
+
+/*
+ * Modifier          Class     Package     Subclass     World
+ * public              y          y           y           y
+ * protected           y          y           y           n
+ * no modifier         y          y           n           n
+ * private             y          n           n           n
+ */
+
+public class PublicPrivateAccess {
+	public String Name;
+	public int age;
+
+}

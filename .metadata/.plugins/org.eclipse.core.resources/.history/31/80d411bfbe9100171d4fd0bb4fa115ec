@@ -1,0 +1,14 @@
+package javaLessons;
+
+public class Strings {
+
+	public static void main(String[] args) {
+		String myString = "Hello";
+		int myStringLength = myString.length();
+		String myStringLowerCase = myString.toLowerCase();
+
+		System.out.println(myStringLowerCase);
+		System.out.println(myString.toLowerCase());
+	}
+
+}

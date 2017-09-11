@@ -1,0 +1,15 @@
+package seleniumDataType;
+
+public class VariablePractice {
+
+	public static void main(String[] args) {
+		boolean status;
+		status = true;
+		boolean newStatus = false;
+		
+		System.out.println("My old status was "+status);
+		System.out.println("My new status is "+newStatus);
+
+	}
+
+}

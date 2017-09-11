@@ -1,0 +1,15 @@
+package javaLessons;
+
+public class incrementOperators {
+
+	public static void main(String[] args) {
+		int x = 10;
+		x++;
+		
+		//post increment values
+		System.out.println(x++);
+		System.out.println(x);
+
+	}
+
+}

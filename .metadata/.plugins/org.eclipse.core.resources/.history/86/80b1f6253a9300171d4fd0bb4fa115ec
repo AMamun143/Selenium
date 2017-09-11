@@ -1,0 +1,29 @@
+package seleniumDataType;
+
+public class VariablePractice {
+
+	public static void main(String[] args) {
+		
+		System.out.println("------------Boolean------------------");
+		boolean status;
+		status = true;
+		boolean newStatus = false;
+		
+		System.out.println("My first status was "+status);
+		System.out.println("My new status is "+newStatus);
+		
+		System.out.println("------------Char------------------");
+		
+		char a = 'M';
+		char b = 'O';
+		char c = 65;
+		
+		System.out.println("My first char value is "+a);
+		System.out.println("My new char value is "+b);
+		System.out.println("My third char value is "+c);
+		
+		System.out.println("------------Char------------------");
+
+	}
+
+}

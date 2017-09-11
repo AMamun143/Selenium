@@ -1,0 +1,35 @@
+package javaLessons;
+
+import java.util.Scanner;
+
+public class GetUserInput {
+
+	public static void main(String[] args) {
+		
+		//Enter a number
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter a number");
+		int user_input_number = scan.nextInt();
+		
+		System.out.println("User entered: ");
+		System.out.println(user_input_number);
+		
+		//Enter decimal numbers
+		Scanner scan1 = new Scanner(System.in);
+		System.out.println("Enter a decimal value");
+		double user_input_number1 = scan1.nextDouble();
+		
+		System.out.println("User entered: ");
+		System.out.println(user_input_number1);
+		
+		//Enter letters
+		Scanner scan2 = new Scanner(System.in);
+		System.out.println("Enter a String");
+		String user_input_number2 = scan2.nextLine();
+		
+		System.out.println("User entered: ");
+		System.out.println(user_input_number2);
+
+	}
+
+}

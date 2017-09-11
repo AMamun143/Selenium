@@ -1,0 +1,10 @@
+package loopStatement;
+
+public class TypesOfLoops {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

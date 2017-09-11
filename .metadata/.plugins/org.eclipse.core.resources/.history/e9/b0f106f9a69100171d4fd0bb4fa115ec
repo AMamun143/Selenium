@@ -1,0 +1,22 @@
+package javaLessons;
+
+public class MathOperators {
+
+	public static void main(String[] args) {
+		/*
+		 * add is +
+		 * subtract is -
+		 * multiply is *
+		 * division /
+		 * modulus operator(find reminder) %
+		 */
+		double x, y, answer;
+		x = 20;
+		y = 30;
+		answer = x * y;
+		
+		System.out.println("Answer is equal to: " + answer);
+
+	}
+
+}

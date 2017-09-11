@@ -1,0 +1,30 @@
+package javaLessons;
+
+public class ForLoop {
+
+	public static void main(String[] args) {
+		int [] myIntArray = {100, 31, 26, 48, 52};
+
+		
+		//for (/*init; expression; increment*/) {
+		//}
+		//
+		
+		/*int index = 0;
+		while (index < 5) {
+			System.out.println(index);
+			index++;
+		}*/
+		
+		for (int index = 0; index < 5; index++) {
+			System.out.println(myIntArray[index]);
+		}
+		
+		System.out.println("-------------------------");
+		for (int element : myIntArray) {
+			System.out.println(element);
+		}
+		
+	}
+
+}

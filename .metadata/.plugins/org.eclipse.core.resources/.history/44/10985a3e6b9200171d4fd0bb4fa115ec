@@ -1,0 +1,15 @@
+package classes;
+
+public class MyClass {
+
+	public static void main(String[] args) {
+		Students mark = new Students(); // mark--> object or instance
+		
+		mark.id = 1;
+		mark.Name = "Mark";
+		mark.age  = 15;
+		
+		System.out.println(mark.Name + "is "+mark.age +" years old");
+	}
+
+}

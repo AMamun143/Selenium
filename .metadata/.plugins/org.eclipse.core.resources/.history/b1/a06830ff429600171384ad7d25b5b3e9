@@ -1,0 +1,27 @@
+import java.util.List;
+import java.util.concurrent.TimeUnit;
+
+import org.junit.Test;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class BootstrapDropDown {
+	
+	@Test
+	public void FacebookLogfOut(){
+		
+		System.setProperty("WebDriver.gecko.driver", "/Users/Mamun/Desktop/driver");
+		WebDriver driver = new FirefoxDriver();
+		driver.get("http://seleniumpractise.blogspot.in/2016/08/bootstrap-dropdown-example-for-selenium.html");
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		driver.manage().window().maximize();
+		
+		
+		List<WebElement> facebookLogOut = driver.findElement(By.xpath(".//*[@id='userNavigationLabel']"));
+		
+		
+	} 
+
+}

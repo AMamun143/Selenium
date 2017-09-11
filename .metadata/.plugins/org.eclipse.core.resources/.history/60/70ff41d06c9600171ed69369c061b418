@@ -1,0 +1,32 @@
+package Assertion;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
+import org.testng.annotations.Test;
+
+public class GmailAssert {
+	
+	@Test
+	public void AssertGmail() {
+		System.setProperty("WebDriver.gecko.driver", "/Users/Mamun/Desktop/driver");
+		WebDriver driver = new ChromeDriver();
+		driver.get("http://www.gmail.com");
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		driver.manage().window().maximize();
+		
+		WebElement email = driver.findElement(By.cssSelector("#identifierId"));
+		Select emailField = new Select(email);
+		
+		WebElement defaultEmail = emailField.getFirstSelectedOption();
+		System.out.println(defaultEmail);
+		
+		driver.findElement(By.cssSelector(".RveJvd.snByac")).click();
+	
+	}
+
+}

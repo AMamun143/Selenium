@@ -1,0 +1,28 @@
+package conditionalAndDecisionStatement;
+
+public class AllStatements {
+	/*
+	 * Syntax for If statement
+	 * if(condition){
+	 * }
+	 */
+	public static void main(String[] args) {
+		
+		System.out.println("--------If Statement----------");
+		int a = 90;
+		
+		if (a <=100) {
+			System.out.println("Value os a is "+a);
+		}
+		
+		System.out.println("--------If Else Statement----------");
+		String browser = "Chrome";
+		
+		if(browser.equalsIgnoreCase("Chrome")){
+			System.out.println("TC executed on Chrome");
+		}else{
+			System.out.println("TC executed on Firefox");
+		}
+	}
+
+}

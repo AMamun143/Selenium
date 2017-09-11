@@ -1,0 +1,21 @@
+package facebook;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class FacebookRegister {
+
+	public static void main(String[] args) {
+		
+		System.setProperty("WebDriver.gecko.driver", "/Users/Mamun/Desktop/driver");
+		WebDriver driver = new FirefoxDriver();
+		driver.get("http://amazon.com");
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+
+		
+	}
+
+}

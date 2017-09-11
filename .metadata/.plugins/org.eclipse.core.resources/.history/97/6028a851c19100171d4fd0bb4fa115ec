@@ -1,0 +1,17 @@
+package methodLessons;
+
+public class ParameterPassingAndReturning {
+
+	public static void main(String[] args) {
+		sayHello("Mamun");
+		sayHello("Irine");
+		sayHello("Tanjim");
+		sayHello("Arafat");
+
+	}
+	
+	public static void sayHello(String name) {
+		System.out.println("Hello " + name);
+	}
+
+}

@@ -1,0 +1,43 @@
+package Assertion;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+public class GmailAssert {
+	
+	@Test
+	public void AssertGmail() {
+		System.setProperty("WebDriver.gecko.driver", "/Users/Mamun/Desktop/driver");
+		WebDriver driver = new ChromeDriver();
+		driver.get("http://www.gmail.com");
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		driver.manage().window().maximize();
+		
+		driver.findElement(By.cssSelector(".RveJvd.snByac")).click();
+		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+		
+		String actualError = driver.findElement(By.cssSelector(".dEOOab.RxsGPe")).getAttribute("innerHTML");
+		String expectedError = "Enter an email or phone";
+		
+		//Type1
+		Assert.assertEquals(actualError, expectedError);
+		
+		//Type2
+		Assert.assertTrue(actualError.contains("Enter an email"));
+		
+		System.out.println("Test completed");
+		
+		driver.quit();
+		
+		
+	
+	}
+
+}

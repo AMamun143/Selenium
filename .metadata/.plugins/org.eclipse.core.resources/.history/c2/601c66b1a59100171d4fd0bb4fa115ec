@@ -1,0 +1,13 @@
+package javaLessons;
+
+public class MyClass {
+
+	public static void main(String[] args) {
+		int my_variale = 10;
+		
+		
+		System.out.println(my_variale);
+
+	}
+
+}
