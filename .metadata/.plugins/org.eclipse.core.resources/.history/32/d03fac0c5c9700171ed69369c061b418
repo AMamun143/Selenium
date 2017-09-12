@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package com.wordpress.testCases;
+
+/**
+ * @author Mamun
+ *
+ */
+public class VarifyWordpressLogin {
+
+}

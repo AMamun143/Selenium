@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="4021" started-at="2017-09-10T21:42:07Z" finished-at="2017-09-10T21:42:11Z">
+  <suite name="Default suite" duration-ms="5136" started-at="2017-09-11T19:42:09Z" finished-at="2017-09-11T19:42:14Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="4021" started-at="2017-09-10T21:42:07Z" finished-at="2017-09-10T21:42:11Z">
-      <class name="Assertion.GmailAssert">
-        <test-method status="PASS" signature="AssertGmail()[pri:0, instance:Assertion.GmailAssert@6a2bcfcb]" name="AssertGmail" duration-ms="3992" started-at="2017-09-10T17:42:07Z" finished-at="2017-09-10T17:42:11Z">
+    <test name="Default test" duration-ms="5136" started-at="2017-09-11T19:42:09Z" finished-at="2017-09-11T19:42:14Z">
+      <class name="scrollPage.ScrollDown">
+        <test-method status="PASS" signature="ScrollPageDown()[pri:0, instance:scrollPage.ScrollDown@6a2bcfcb]" name="ScrollPageDown" duration-ms="5103" started-at="2017-09-11T15:42:09Z" finished-at="2017-09-11T15:42:14Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- AssertGmail -->
-      </class> <!-- Assertion.GmailAssert -->
+        </test-method> <!-- ScrollPageDown -->
+      </class> <!-- scrollPage.ScrollDown -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

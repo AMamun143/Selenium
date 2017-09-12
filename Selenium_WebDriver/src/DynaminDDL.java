@@ -15,10 +15,10 @@ public class DynaminDDL {
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
 		
-		List<WebElement> radio = driver.findElement(By.xpath("//input[@name='lang' and @type='radio']"));
+		List<WebElement> radio = (List<WebElement>) driver.findElement(By.xpath("//input[@name='lang' and @type='radio']"));
 		
 
-		for (i = 0; i<radio; i++) {
+		for (int i = 0; i<radio; i++) {
 			
 			WebElement local_radio = radio.get(i);
 			String value = local_radio.getAttribute("value");
