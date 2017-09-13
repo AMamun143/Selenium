@@ -1,0 +1,55 @@
+package com.amazon.homePage;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.How;
+
+/**
+ * @author Mamun
+ *
+ */
+public class LoginPage {
+	
+	WebDriver driver;
+	
+	public LoginPage(WebDriver driver){
+		this.driver = driver;
+	}
+	
+	@FindBy(how = How.XPATH, using = ".//*[@id='nav-link-accountList']/span[1]")
+	WebElement accountLink;
+	
+	@FindBy(how = How.XPATH, using = ".//*[@id='ap_email']")
+	WebElement userEmail;
+	
+	@FindBy(how = How.XPATH, using = ".//*[@id='ap_password']")
+	WebElement password;
+	
+	@FindBy(how = How.XPATH, using = ".//*[@id='signInSubmit']")
+	WebElement submitButton;
+	
+	public void clickAccountLink (){
+		driver.navigate().back();
+		accountLink.click();
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+	}
+	
+	public void enterUserEmail (String Useremail){
+		userEmail.sendKeys(Useremail);
+		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+	}
+	
+	public void enterPassword (String userPassword){
+		password.sendKeys(userPassword);
+		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+	}
+	
+	public void clickSubmitButton (){
+		submitButton.click();
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+	}
+
+}

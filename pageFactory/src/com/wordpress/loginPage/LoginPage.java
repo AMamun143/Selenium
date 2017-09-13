@@ -1,6 +1,3 @@
-/**
- * 
- */
 package com.wordpress.loginPage;
 
 import org.openqa.selenium.By;

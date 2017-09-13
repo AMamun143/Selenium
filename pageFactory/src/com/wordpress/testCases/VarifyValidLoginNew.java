@@ -1,6 +1,3 @@
-/**
- * 
- */
 package com.wordpress.testCases;
 
 import org.openqa.selenium.WebDriver;

@@ -1,0 +1,20 @@
+package com.amazon.testCases;
+
+import org.openqa.selenium.WebDriver;
+import org.testng.annotations.Test;
+
+import Utility.LaunchBrowser;
+
+/**
+ * @author Mamun
+ *This is Test Runner
+ */
+public class AmazonTests {
+	
+	@Test
+	public void selectDpt() {
+		WebDriver driver = LaunchBrowser.startBrowser("firefox", "http://www.amazon.com");
+		
+	}
+
+}
